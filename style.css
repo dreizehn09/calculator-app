@@ -114,12 +114,12 @@ h1 {
 @media (max-width: 600px) {
 
   .container {
-    padding: 20px 10px;
+    padding: 15px 10px;
   }
 
   .item {
     flex-wrap: nowrap;
-    gap: 6px;
+    gap: 5px;
     padding: 8px;
   }
 
@@ -133,21 +133,21 @@ h1 {
     flex: 1;
     min-width: 0;
     width: auto;
-    padding: 8px;
-    font-size: 14px;
+    padding: 6px;
+    font-size: 12px;
   }
 
   .item-amount {
-    width: 85px;
+    width: 75px;
     flex-shrink: 0;
-    padding: 8px;
-    font-size: 14px;
+    padding: 6px;
+    font-size: 12px;
   }
 
   .delete-button {
     flex-shrink: 0;
     margin-left: 0;
-    padding: 8px 9px;
-    font-size: 13px;
+    padding: 6px 8px;
+    font-size: 12px;
   }
 }
