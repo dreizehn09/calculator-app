@@ -49,8 +49,8 @@ h1 {
     min-width: 0;
     padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 16px;
+    border-radius: 4px;
+    font-size: 12px;
 }
 
 .item-amount {
@@ -106,7 +106,7 @@ h1 {
 }
 
 #total {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     color: #1976d2;
 }
