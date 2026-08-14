@@ -145,12 +145,12 @@ deselectAllButton.addEventListener("click", function () {
 
 // 「金額項目を追加」ボタンの表示・非表示
 toggleAddButton.addEventListener("click", function () {
-  if (addButton.style.display === "none") {
-    addButton.style.display = "block";
-    toggleAddButton.textContent = "項目追加ボタンを非表示";
-  } else {
-    addButton.style.display = "none";
+  addButton.classList.toggle("hidden");
+
+  if (addButton.classList.contains("hidden")) {
     toggleAddButton.textContent = "項目追加ボタンを表示";
+  } else {
+    toggleAddButton.textContent = "項目追加ボタンを非表示";
   }
 });
 
