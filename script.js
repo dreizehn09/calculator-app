@@ -143,6 +143,17 @@ deselectAllButton.addEventListener("click", function () {
   saveItems();
 });
 
+// 「金額項目を追加」ボタンの表示・非表示
+toggleAddButton.addEventListener("click", function () {
+  if (addButton.style.display === "none") {
+    addButton.style.display = "block";
+    toggleAddButton.textContent = "項目追加ボタンを非表示";
+  } else {
+    addButton.style.display = "none";
+    toggleAddButton.textContent = "項目追加ボタンを表示";
+  }
+});
+
 // 保存データを読み込む
 function loadItems() {
   const savedData = localStorage.getItem(STORAGE_KEY);
