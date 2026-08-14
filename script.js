@@ -2,6 +2,9 @@ const itemsContainer = document.getElementById("items");
 const addButton = document.getElementById("addButton");
 const totalElement = document.getElementById("total");
 
+const selectAllButton = document.getElementById("selectAllButton");
+const deselectAllButton = document.getElementById("deselectAllButton");
+
 const STORAGE_KEY = "calculatorItems";
 
 // 項目を保存
@@ -112,6 +115,30 @@ function calculateTotal() {
 // ＋ボタンを押したとき
 addButton.addEventListener("click", function () {
   addItem();
+  saveItems();
+});
+
+// 全選択
+selectAllButton.addEventListener("click", function () {
+  const checkboxes = document.querySelectorAll(".item-checkbox");
+
+  checkboxes.forEach(function (checkbox) {
+    checkbox.checked = true;
+  });
+
+  calculateTotal();
+  saveItems();
+});
+
+// 全解除
+deselectAllButton.addEventListener("click", function () {
+  const checkboxes = document.querySelectorAll(".item-checkbox");
+
+  checkboxes.forEach(function (checkbox) {
+    checkbox.checked = false;
+  });
+
+  calculateTotal();
   saveItems();
 });
 
