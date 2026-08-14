@@ -140,55 +140,56 @@ h1 {
 
 @media (max-width: 600px) {
 
-  .container {
-    padding: 20px 10px;
-  }
+    .container {
+        padding: 20px 10px;
+    }
 
-  .item {
-    flex-wrap: nowrap;
-    gap: 6px;
-    padding: 8px;
-  }
+    .item {
+        flex-wrap: nowrap;
+        gap: 6px;
+        padding: 8px;
+    }
 
-  .item-checkbox {
-    width: 18px;
-    height: 18px;
-    flex-shrink: 0;
-  }
+    .item-checkbox {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+    }
 
-  .item-name {
-    flex: 1;
-    min-width: 0;
-    width: auto;
-    padding: 8px;
-    font-size: 14px;
-  }
+    .item-name {
+        flex: 1;
+        min-width: 0;
+        width: auto;
+        padding: 8px;
+        font-size: 14px;
+    }
 
-  .item-amount {
-    width: 85px;
-    flex-shrink: 0;
-    padding: 8px;
-    font-size: 14px;
-  }
+    .item-amount {
+        width: 85px;
+        flex-shrink: 0;
+        padding: 8px;
+        font-size: 14px;
+    }
 
-  .delete-button {
-    flex-shrink: 0;
-    margin-left: 0;
-    padding: 8px 9px;
-    font-size: 13px;
-  }
+    .delete-button {
+        flex-shrink: 0;
+        margin-left: 0;
+        padding: 8px 9px;
+        font-size: 13px;
+    }
+
     .select-buttons {
-    gap: 8px;
-    margin: 12px 0 18px;
+        gap: 8px;
+        margin: 12px 0 18px;
+    }
+
+    .select-buttons button {
+        padding: 11px 8px;
+        font-size: 15px;
+    }
 }
 
-.select-buttons button {
-    padding: 11px 8px;
-    font-size: 15px;
-}
-    
-    .hidden {
-  display: none !important;
-}
-
+/* 金額項目を追加ボタンの非表示 */
+.hidden {
+    display: none !important;
 }
