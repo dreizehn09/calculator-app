@@ -4,6 +4,7 @@ const totalElement = document.getElementById("total");
 
 const selectAllButton = document.getElementById("selectAllButton");
 const deselectAllButton = document.getElementById("deselectAllButton");
+const toggleAddButton = document.getElementById("toggleAddButton");
 
 const STORAGE_KEY = "calculatorItems";
 
