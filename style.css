@@ -106,9 +106,16 @@ h1 {
 }
 
 #total {
-    font-size: 20px;
+    font-size: 48px;
     font-weight: bold;
     color: #1976d2;
+    text-align: center;
+    margin: 30px auto;
+    padding: 25px;
+    display: block;
+    background-color: #f0f8ff;
+    border-radius: 12px;
+    border: 2px solid #1976d2;
 }
 
 .select-buttons {
@@ -186,6 +193,12 @@ h1 {
     .select-buttons button {
         padding: 11px 8px;
         font-size: 15px;
+    }
+
+    #total {
+        font-size: 36px;
+        margin: 20px auto;
+        padding: 20px;
     }
 }
 
