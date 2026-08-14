@@ -186,5 +186,9 @@ h1 {
     padding: 11px 8px;
     font-size: 15px;
 }
+    
+    .hidden {
+  display: none !important;
+}
 
 }
