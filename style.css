@@ -129,7 +129,8 @@ h1 {
 .toggle-add-button {
     width: 100%;
     padding: 10px;
-    margin-bottom: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
     font-size: 14px;
     font-weight: bold;
     border-radius: 8px;
