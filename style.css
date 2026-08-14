@@ -111,6 +111,22 @@ h1 {
     color: #1976d2;
 }
 
+.select-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0 20px;
+}
+
+.select-buttons button {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
 @media (max-width: 600px) {
 
   .container {
@@ -150,4 +166,14 @@ h1 {
     padding: 8px 9px;
     font-size: 13px;
   }
+    .select-buttons {
+    gap: 8px;
+    margin: 12px 0 18px;
+}
+
+.select-buttons button {
+    padding: 11px 8px;
+    font-size: 15px;
+}
+
 }
