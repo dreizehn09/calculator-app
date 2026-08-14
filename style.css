@@ -126,6 +126,16 @@ h1 {
     cursor: pointer;
 }
 
+.toggle-add-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 
 @media (max-width: 600px) {
 
